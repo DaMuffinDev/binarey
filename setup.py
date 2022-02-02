@@ -7,7 +7,7 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(HERE, 'README.md'), encoding='utf-8') as fh:
     LONG_DESCRIPTION = "\n" + fh.read()
 
-VERSION = "1.0.0"
+VERSION = "1.0.8"
 DESCRIPTION = "A module that allows you to convert files to binary."
 KEYWORDS = [
     "binary",
