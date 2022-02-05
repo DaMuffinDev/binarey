@@ -7,7 +7,7 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(HERE, 'README.md'), encoding='utf-8') as fh:
     LONG_DESCRIPTION = "\n" + fh.read()
 
-VERSION = "1.0.8"
+VERSION = "2.0.0"
 DESCRIPTION = "A module that allows you to convert files to binary."
 KEYWORDS = [
     "binary",
@@ -40,7 +40,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
     ],
-    install_requires=["argparse"],
+    install_requires=["functools", "argparse", "json", "os"],
     python_requires=">=3.8",
     packages=find_packages(),
     keywords=KEYWORDS,
